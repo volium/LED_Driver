@@ -51,6 +51,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
+    (grid_origin 100 100)
     (visible_elements 7FFEFF7F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
@@ -519,8 +520,8 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 1.27))
     (polygon
       (pts
-        (xy 115 99.97) (xy 100 99.97) (xy 100 84.97) (xy 103.79 85) (xy 103.79 92.99)
-        (xy 111.2 92.99) (xy 111.2 85) (xy 115 84.97)
+        (xy 115 100) (xy 100 100) (xy 100 85) (xy 103.8 85) (xy 103.8 93)
+        (xy 111.2 93) (xy 111.2 85) (xy 115 85)
       )
     )
     (filled_polygon
@@ -593,7 +594,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.06) (thermal_bridge_width 0.6))
     (polygon
       (pts
-        (xy 115 99.97) (xy 100 99.97) (xy 100 84.97) (xy 115 84.97)
+        (xy 115 100) (xy 100 100) (xy 100 85) (xy 115 85)
       )
     )
     (filled_polygon
