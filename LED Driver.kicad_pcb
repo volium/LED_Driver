@@ -3,7 +3,7 @@
   (general
     (links 17)
     (no_connects 0)
-    (area 96.912667 84.924999 118.087334 100.879)
+    (area 99.924999 84.924999 115.075001 100.075001)
     (thickness 1.6)
     (drawings 17)
     (tracks 52)
@@ -305,7 +305,7 @@
       (net 1 +3V3))
     (pad 2 smd rect (at 1.9 0 180) (size 2.2 3.9) (layers Top F.Paste F.Mask)
       (net 7 /SW))
-    (model Inductors.3dshapes/Inductor_Taiyo-Yuden_NR-40xx.wrl
+    (model C:/Github/3DModels/NR4018.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
