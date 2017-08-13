@@ -265,9 +265,9 @@
     (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 4 /LED_K))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
-      (at (xyz 0 -0.05 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -384,9 +384,9 @@
     (pad 3 thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
-      (at (xyz 0 -0.1 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -427,7 +427,7 @@
       (net 3 /LED_A))
     (pad 2 smd rect (at 1.65 0 180) (size 0.9 1.2) (layers Top F.Paste F.Mask)
       (net 7 /SW))
-    (model C:/Github/3DModels/SOD123.wrl
+    (model ${KISYS3DMOD}/Diodes_SMD.3dshapes/D_SOD-123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
